@@ -36,7 +36,9 @@ Features include:
 %setup -q -n msn-pecan-%version
 
 %build
-%setup_compile_flags
+#gw don't use setup_compile_flags, we want to backport to 2008.1.
+export CFLAGS="%optflags"
+export LDFLAGS="%ldflags"
 %make
 
 %install
