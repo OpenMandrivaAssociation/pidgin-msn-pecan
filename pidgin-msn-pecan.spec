@@ -1,4 +1,4 @@
-%define prerel rc2
+%define prerel rc3
 Summary:	Alternative implementation of the MSN protocol plug-in for libpurple
 Name:     	pidgin-msn-pecan
 Version:	0.1.0
