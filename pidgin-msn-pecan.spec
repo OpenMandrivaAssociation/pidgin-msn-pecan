@@ -1,11 +1,10 @@
-%define prerel rc4
 Summary:	Alternative implementation of the MSN protocol plug-in for libpurple
 Name:     	pidgin-msn-pecan
 Version:	0.1.0
-Release:	%mkrel -c %prerel 1
+Release:	%mkrel 1
 License:	GPLv2+
 Group:		Networking/Instant messaging
-Source0: 	http://msn-pecan.googlecode.com/files/msn-pecan-%version-%prerel.tar.bz2
+Source0: 	http://msn-pecan.googlecode.com/files/msn-pecan-%version.tar.bz2
 URL:		http://code.google.com/p/msn-pecan/
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:	pidgin-devel
@@ -34,7 +33,7 @@ Features include:
 
 #---------------------------------------------------------------------
 %prep
-%setup -q -n msn-pecan-%version-%prerel
+%setup -q -n msn-pecan-%version
 
 %build
 #gw don't use setup_compile_flags, we want to backport to 2008.1.
