@@ -1,7 +1,7 @@
 Summary:	Alternative implementation of the MSN protocol plug-in for libpurple
 Name:     	pidgin-msn-pecan
 Version:	0.1.3
-Release:	%mkrel 1
+Release:	2
 License:	GPLv2+
 Group:		Networking/Instant messaging
 Source0: 	http://msn-pecan.googlecode.com/files/msn-pecan-%version.tar.bz2
