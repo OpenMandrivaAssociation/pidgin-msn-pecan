@@ -5,7 +5,7 @@ Release:	2
 License:	GPLv2+
 Group:		Networking/Instant messaging
 Source0: 	http://msn-pecan.googlecode.com/files/msn-pecan-%version.tar.bz2
-URL:		http://code.google.com/p/msn-pecan/
+URL:		https://code.google.com/p/msn-pecan/
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:	pidgin-devel
 
