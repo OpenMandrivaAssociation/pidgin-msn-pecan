@@ -7,6 +7,7 @@ Group:		Networking/Instant messaging
 Source0: 	http://msn-pecan.googlecode.com/files/msn-pecan-%version.tar.bz2
 URL:		https://code.google.com/p/msn-pecan/
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
+BuildRequires:	make
 BuildRequires:	pidgin-devel
 
 %description
